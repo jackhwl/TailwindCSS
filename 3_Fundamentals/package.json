@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "run-p dev-*",
     "dev-js": "rollup --config -w",
-    "dev-css": "sass -w ./src/site.scss ./public/css/site.css",
+    "dev-css": "npx tailwindcss -i ./src/app.src.css -o ./public/css/app.css -w",
     "build": "run-p build-*",
     "build-js": "rollup --config rollup.config.prod.js",
     "build-css": "sass --style=compressed ./src/site.scss ./public/css/site.css"
