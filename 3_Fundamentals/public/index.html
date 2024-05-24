@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bechdel Test</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <!-- <link rel="stylesheet" href="css/site.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
@@ -57,10 +58,10 @@
     <script src="js/main.js" defer></script>
   </head>
 
-  <body>
-    <div id="container">
+  <body class="bg-amber-800">
+    <div id="container" class="container bg-gray-100 mx-auto">
       <header>
-        <div id="site-name">
+        <div id="site-name" class="text-2xl font-bold text-amber-800 p-2 whitespace-nowrap">
           <a href="/"><i class="fas fa-film"></i> The Bechdel Test</a>
         </div>
         <section id="menu">
